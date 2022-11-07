@@ -18,7 +18,7 @@ const Resume = () => {
 
   useEffect(() => {
     setMount(true);
-    if (!showResume) {
+    if (!showPhotos) {
       router.push("/");
     }
   }, []);

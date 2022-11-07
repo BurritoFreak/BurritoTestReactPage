@@ -83,6 +83,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
+                  {showPhotos && (
+                    <Button
+                      onClick={() => router.push("/photo")}
+                      classes="first:ml-1"
+                    >
+                      Photos
+                    </Button>
+                  )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
@@ -152,6 +160,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
+            {showPhotos && (
+              <Button
+                onClick={() => router.push("/photo")}
+                classes="first:ml-1"
+              >
+                Photos
+              </Button>
+            )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact
@@ -179,6 +195,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 classes="first:ml-1"
               >
                 Resume
+              </Button>
+            )}
+            {showPhotos && (
+              <Button
+                onClick={() => router.push("/photo")}
+                classes="first:ml-1"
+              >
+                Photos
               </Button>
             )}
 
