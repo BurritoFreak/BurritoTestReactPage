@@ -106,6 +106,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
+                  {showPhotos && (
+                    <Button
+                      onClick={() => router.push("/photo")}
+                      classes="first:ml-1"
+                    >
+                      Photos
+                    </Button>
+                  )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
