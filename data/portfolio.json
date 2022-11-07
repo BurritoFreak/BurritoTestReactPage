@@ -5,9 +5,10 @@
     "headerTaglineThree": "designer and devloper",
     "headerTaglineFour": " based in New Delhi, India.",
     "showCursor": true,
-    "showBlog": true,
+    "showBlog": false,
     "darkMode": true,
     "showResume": true,
+    "showPhotos":true,
     "socials": [{
         "id": "1",
         "title": "Github",
