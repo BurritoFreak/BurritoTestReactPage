@@ -11,7 +11,7 @@ import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
 
-const Resume = () => {
+const Photo = () => {
   const router = useRouter();
   const theme = useTheme();
   const [mount, setMount] = useState(false);
@@ -131,4 +131,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Photo;
